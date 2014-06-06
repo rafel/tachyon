@@ -1,4 +1,4 @@
-** Simple and fast community written in PHP.**<br />
+<b>Simple and fast community written in PHP.</b><br />
 **The project is object-oriented in MVC.**
 
 1. Import db/sample.sql
