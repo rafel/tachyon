@@ -8,8 +8,8 @@ define('DB_SERVER', "localhost");
 define('DB_USER', "root");
 
 //Database login password
-define('DB_PASS', "621025");
+define('DB_PASS', "");
 
 //Database name
-define('DB_DATABASE', "db_tachyon");
+define('DB_DATABASE', "");
 ?>
