@@ -5,4 +5,4 @@
 2. Configure conf/db.conf.php
 
 **Database**
-![Alt text](/db/model.png?raw=true "Optional Title")
+![Alt text](/db/model.png?raw=true "DB")
