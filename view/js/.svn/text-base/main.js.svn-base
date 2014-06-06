@@ -1,0 +1,27 @@
+$(document).ready(main);
+
+
+function main()
+{
+	alertify.init();
+	$("#logo").click(tile_user_click);
+	//alertify.alert("message");
+		
+}
+
+function tile_user_click()
+{
+	
+	/*
+	$("#logo").flippy({
+	content:"Hi !",
+	direction:"TOP",
+	duration:"750",
+	onStart:function(){
+		alert("Let's flip");
+	},
+	onFinish:function(){
+		alert("ok, it's flipped :)");
+	}
+		});*/
+}

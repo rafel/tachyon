@@ -1,0 +1,76 @@
+/*General style*/
+
+/*Style for links*/
+A:link		{text-decoration: none; color:#1a54a6; }
+A:visited	{text-decoration: none; color:#1a54a6;}
+A:active	{text-decoration: none; color:#000;}
+A:hover		{text-decoration: none; color:#000;}
+
+
+/*Font styles*/
+h1	{color:#1a54a6;}
+h2	{color:#1a54a6; padding:0px; margin:2px;}
+
+@font-face { 
+	font-family:OldType; 
+	src: url('fonts/1942.eot');	/*For IE*/
+	src: local("1942"), url(fonts/1942.ttf ) format("truetype");
+}
+
+
+body {
+	background: url('images/bg.jpg') #eee;
+	margin:0;
+}
+
+#content{
+	width: 1024px;
+	margin: 0 auto;
+	background: #fff;
+	height: 1200px;
+	-moz-box-shadow: 0px 5px 12px 0px #AAA;
+	-webkit-box-shadow: 0px 5px 12px 0px #AAA;
+	box-shadow: 0px 5px 12px 0px #AAA;	
+}
+
+
+
+
+/*--------------------------------------------------------------
+2.2 - Header
+--------------------------------------------------------------*/
+#header-very-top { margin:0 auto; width:1240px; margin-top:10px; display:table; }
+#header { margin-top:0; height:250px;}
+#logo {float:left;	width:350px;}
+#logo img  {padding-left:25px; width:250px; padding-left: 88px; padding-top: 24px;}
+#header-top { height:92px; background:#ffffff; }
+#header-bottom { width:960px; margin:0 auto; }
+#header-left { width:400px; }
+#header-right { float:right; width:530px; height:185px; }
+#header-right a { color:#ffffff; } 
+#metro-menu{ float:right; width:560px;}
+#header-right-1  { float:right; width:258px; height:185px; padding-right:25px; }
+.tile { display:block; float:right; margin:2px; width:125px; height:88px; position:relative; background-color:#1ba1e2; transition: all 300ms ease-out; }
+.tile:hover { background:#5d6da2; background: linear-gradient(135deg, #5d6da2 0%,#5d6da2 50%,#546394 50%,#546394 100%); }
+.tile-title { position:absolute; right:5px; bottom:5px; font-size:10px; font-weight:700; color:#ffffff; font-family: Open Sans; }
+.tile-title a { font-weight:700; font-family: Open Sans; text-transform:uppercase; color:#fff; text-decoration:none; }
+.tile img { margin-top:10px; margin-left:10px; }
+#header-right-2 { height:185px; width:270px; float:right; }
+.tile2 { float:right; margin:2px; width:254px; height:88px; position:relative; background-color:#1ba1e2; font:24px Open Sans; text-align:center; color:#ffffff; }
+.tile-avatar { margin-right:7px; border-right:4px solid #ffffff; float:left; }
+.tile-username { float:left; width:145px; font:18px Open Sans; margin-top:6px; text-align:left; }
+.tile-username a { font-size:18px!important; color:#ffffff; }
+.tile-logout { float:left; text-align:left; font:12px Open Sans; }
+.tile-logout a { font-size:10px; text-transform:uppercase; font-weight:700; color:#ffffff; }
+.tile-messages { margin-top:11px; width:27px; text-align:left; padding-left:34px; float:right; background-image: url( images/tile-messages.png ); background-position: 0px 3px;background-repeat: no-repeat; }
+.tile-messages a { line-height:24px; }
+#header-right-2 { float:right; width:270px; height:88px; }
+
+#main{
+	width: 100%;
+	margin:10px;
+}
+
+.center{
+	text-align:center;
+}

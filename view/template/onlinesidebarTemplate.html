@@ -1,0 +1,37 @@
+	
+		<div id="sidebar">
+			<div id="profileInfoContainer" class="sidebar-content">
+				<h2>Greetings, <strong id="profileFullname">---$name---</strong>
+				<a id="editprofile" alt="Edit profile" title="Edit profile" href="#">
+					<img style="float:right" src="view/style/images/editicon.png">
+				</a>
+				</h2>
+				<div class="infobox">
+						<div class="imgHover">
+							Drag & drop here
+						</div>
+						<img id="profileImage" class="profilePic img" alt="---$name---" src="uploads/---$photo---" width="160">
+						<br />
+
+						<a class="userlink" href="?controller=user&action=fliter&tag=---$username---">
+							@---$username---
+						</a>
+						<br />
+						<div id="profileTitle" class="usertitle">
+							---$title---
+						</div>
+				</div>
+				<div class="profileForm">
+					<form id="" name="" action="?controller=user&action=editProfile" method="post">
+						<input type="text" name="name" id="name" value="---$name---" class="simple-form" placeholder="Please enter full name" />
+						<input type="text" name="title"  id="title" value="---$title---" class="simple-form" placeholder="Enter your title" />
+						<input type="submit" name="submit" id="submit" class="button right" value="Save" />
+					</form>
+				</div>
+				<div class="passwordForm">
+					<input type="password" name="password" id="password" class="simple-form" placeholder="Current password" />
+					<input type="password" name="newpassword" id="newpassword" class="simple-form" placeholder="New password" />
+					<input type="submit" name="submit" id="submit" class="button right dummy" value="Change password" />
+				</div>
+			</div>
+		</div>

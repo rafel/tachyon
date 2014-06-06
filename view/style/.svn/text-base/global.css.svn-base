@@ -1,0 +1,10 @@
+/*General style for body*/
+@import url("body.css");
+@import url("modern.css");
+
+/*Style for alertify*/
+@import url("alertify.core.css");
+@import url("alertify.default.css");
+
+/*Style for menu*/
+@import url("menu.css");
