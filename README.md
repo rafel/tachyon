@@ -6,3 +6,9 @@
 
 **Database**
 ![Alt text](/db/model.png?raw=true "DB")
+
+<b>Comments:</b><br />
+There was a lot of speed programming in the projects , don't trust the comments! 
+
+<b>Tags:</b>
+PHP, HTML, JavaScript, CSS, MVC, Templating, SQL, MySQL
